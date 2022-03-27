@@ -2,107 +2,359 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/boxicons.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/boxicons.min.css">
+  <link rel="stylesheet" href="css/style.css">
 
 
-    <title>Image Slide</title>
+  <title>Image Slide</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img
-                class="d-inline-block "
-                 src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg"
-                width="25" height="25">
-                Qsauce</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-pills ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/Apple.png" class="me-3" alt="" width="0" height="40">Q
 
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
 
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-pills ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+
+  <br><br>
+
+  <div class="container-fluid-fill">
+    <div class="row  mt-5 mb-3 h-100">
+      <div class="col-sm-8">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators container-fluid">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.Af5ICy8tUMrb3BBOco_sOQHaEK&pid=Api&P=0&w=312&h=175"
+                class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
             </div>
-        </div>
-    </nav>
-
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators container-fluid-fill">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/pic1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <div class="carousel-item">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.QkJC93Bzq4nRNx8qR0VO3gHaEK&pid=Api&P=0&w=312&h=175"
+                class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="animated bounceInRight" style="animation-delay:1s;">Second slide label</h5>
+                <p class="animated bounceInLeft" style="animation-delay:2s;">Some representative placeholder content for
+                  the
+                  second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.M3HpL6Ti1ERUVMfhC5z4NQHaEK&pid=Api&P=0&w=320&h=180"
+                class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>third slide.</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="img/pic5.jfif" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="animated bounceInRight" style="animation-delay:1s;">Second slide label</h5>
-              <p class="animated bounceInLeft" style="animation-delay:2s;">Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/pic3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>third slide.</p>
-            </div>
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+
+      <div class="col col-md-4 col-sm-4 col-lg-4 ">
+        <div class="row h-25 pt-2">
+          <div class=" col-sm-4 ">
+            <div class="card h-100"><img
+                src="https://www.1zu87.com/modellautobilder/1zu12-Honda-RC211V-Moto-GP-2006-Repsol-Nr-69-Nicky-Hayden-122-061069-Minichamps-122061069-11952-08.JPG"
+                class=" h-100" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-8 ">
+            <div class="card bg-primary h-100">
+              <div class="card-body">
+                <div class="card-text">
+                  <p class="text-center text-white">This is coding</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row h-25 pt-2">
+          <div class="col-sm-4 ">
+            <div class="card h-100"><img
+                src="https://tse3.mm.bing.net/th?id=OIP.9dQ9_wNNT8W8iDPXt3pIwAHaEo&pid=Api&P=0&w=253&h=158"
+                class="h-100" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-8   ">
+            <div class="card bg-primary h-100">
+              <p class="text-center mt-3 text-white">This is coding</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row h-25 pt-2">
+          <div class="col-sm-4 ">
+            <div class="card h-100"><img
+                src="https://tse3.mm.bing.net/th?id=OIP.9dQ9_wNNT8W8iDPXt3pIwAHaEo&pid=Api&P=0&w=253&h=158"
+                class="h-100" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-8   ">
+            <div class="card bg-primary h-100">
+              <p class="text-center mt-3 text-white">This is coding</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row h-25 pt-2">
+          <div class="col-sm-4 ">
+            <div class="card h-100"><img
+                src="https://tse3.mm.bing.net/th?id=OIP.9dQ9_wNNT8W8iDPXt3pIwAHaEo&pid=Api&P=0&w=253&h=158"
+                class="h-100" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-8   ">
+            <div class="card bg-primary h-100">
+              <p class="text-center mt-3 text-white">This is coding</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container div.row.row-cols-1.row-cols-md-3.g-4">
+    <div class="row">
+      <div class="col-lg-6">
+        <small>Quinton Govati</small>
+        <h1>About Qsauce</h1>
+      </div>
+      <div class="col-lg-6">
+        <p> Qsauce is a company that sells the most quality products in the world,
+          with the latest tech.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/pic1.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Cybersecurity Engineers</h5>
+          <p class="card-text">Cybersecurity engineers, sometimes called information security
+            engineers, identify threats and vulnerabilities in systems and
+            software, then apply their skills to developing and implementing
+            high-tech solutions to defend against hacking, malware and
+            ransomware, insider threats and all types of cybercrime</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/pic3.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Incident
+            Response</h5>
+          <p class="card-text">Responsibilities of an incident
+            response team include developing a proactive
+            incident response plan, testing for and resolving
+            system vulnerabilities, maintaining strong security
+            best practices and providing support for all incident
+            handling measures.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/nature1.jfif" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Chief Information Security
+            Officer's</h5>
+          <p class="card-text">The chief information security
+            officer's duties may include conducting employee
+            security awareness training, developing secure
+            business and communication practices, identifying
+            security objectives and metrics, choosing and
+            purchasing security products from vendors,
+            ensuring that the company is in regulatory
+            compliance.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container-fluid bg-secondary">
+    <h4 class="text-center text-dark fw-bold">WHAT WE DO</h4>
+    <p class="text-md-start">We don't just design and develop website because we're skilled and competent. Sapphire Pillars design
+      interactive, sales oriented and customer relations websites that market our clients and reach thousands customers.
+      We don't just develop applications to solve problems but mostly to simplify the workflow and instill confidence
+      and convinience.</p>
+
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="https://www.sapphirepillars.com/images/web.jpg" alt="...">
+      </div>
+      <div class="col-sm-6">
+        <h4 class="text-center"> Website Design and Development</h4>
+        <p> Resh6onsive websites optimized for web viewing and quick access via any search engine. Moreover, very
+          friendly
+          and easily accessible via tablets, mobile smart phones, desktop and laptops</p>
+
+      </div>
+    </div>
+    <br>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <h4 class="text-center">Content Management Systems (CMS)</h4>
+        <p>of CMS only but to give our valuable clients an opportunity to manage and update web content with
+          convenience without any special skills or programming knowledge and the involvement of a website developer as
+          a
+          website administrator</p> .
+      </div>
+      <div class="col-sm-6">
+        <img src="https://www.sapphirepillars.com/images/cms.jpg" alt="...">
+
+      </div>
+    </div>
+    <br>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="https://www.sapphirepillars.com/images/mobile.png" alt="...">
+      </div>
+      <div class="col-sm-6">
+        <h4 class="text-center">
+          <h4>Mobile Application Development</h4>
+          <p class="fw-light">We build application software for android supported mobile devices using Android Studio
+            integrated with
+            Android Development Kit and Windows. These applications can run on tablets and smartphones..
+          </p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <footer>
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col">
+          <p class=" fw-bold text-center text-danger">ABOUT US</p>
+          <p class="text-center text-white">✓ who we are</p>
+          <p class="text-center text-white">✓ what we do</p>
+          <p class="text-center text-white">✓ Contact Us</p>
+        </div>
+        <div class="col">
+          <p class=" fw-bold text-center text-danger">FOLLOW US</p>
+          <div class="text-center social-icons">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <p class=" fw-bold text-center text-danger">OPERATION HOURS</p>
+          <p class="text-center fw-bold text-white">📅 Monday-Friday,8am-5pm</p>
+        </div>
+        <div class="col">
+          <p class=" fw-bold text-center text-danger">LOCATION</p>
+          <p class="text-center text-white">Plot 118 Khaekholo Ward, Tlokweng, Gaborone Boswana</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <div class="container-fluid-fill bg-primary">
+    <p class="text-center text-white">©Copyright 2020 - Sapphire Pillars. All rights reserved.</p>
+
+  </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 
 
 
